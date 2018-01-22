@@ -1,8 +1,9 @@
-use_frameworks!
+#use_frameworks!
 
 target 'LYPBaseLib_Example' do
   pod 'LYPBaseLib', :path => '../'
-
+  pod 'MBProgressHUD'
+  
   target 'LYPBaseLib_Tests' do
     inherit! :search_paths
 

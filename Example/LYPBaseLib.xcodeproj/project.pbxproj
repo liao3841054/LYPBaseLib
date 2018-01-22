@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		203E141693F26FFAF9D2F207 /* Pods_LYPBaseLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CD834F19A21F6E4297C9F8 /* Pods_LYPBaseLib_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6A7469B91D8000C9C5C5D14D /* libPods-LYPBaseLib_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 486D15272528A85B5DAC49FB /* libPods-LYPBaseLib_Example.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		85093D8F97C6A34C08D4B251 /* libPods-LYPBaseLib_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB15C83DD6EE5258B398D29 /* libPods-LYPBaseLib_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B037C2E739239E2081F8538D /* Pods_LYPBaseLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1AEDD547D97C8490285713 /* Pods_LYPBaseLib_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18CD834F19A21F6E4297C9F8 /* Pods_LYPBaseLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYPBaseLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A7F11DD185024019FC361AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1A7F11DD185024019FC361AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		267248CC067E9386613170B9 /* Pods-LYPBaseLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPBaseLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYPBaseLib_Example/Pods-LYPBaseLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5D1AEDD547D97C8490285713 /* Pods_LYPBaseLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYPBaseLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		486D15272528A85B5DAC49FB /* libPods-LYPBaseLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYPBaseLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB15C83DD6EE5258B398D29 /* libPods-LYPBaseLib_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYPBaseLib_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LYPBaseLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYPBaseLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FCE507D20F542765CB1B362 /* Pods-LYPBaseLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPBaseLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYPBaseLib_Example/Pods-LYPBaseLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D0E7F620222AAFEC1FA6D0E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		925444E420161730009859A9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		925444E720161730009859A9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D0E7F620222AAFEC1FA6D0E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DA8C251BB34135E09684F8B7 /* Pods-LYPBaseLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPBaseLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYPBaseLib_Tests/Pods-LYPBaseLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DBC083856AE4384D81191470 /* Pods-LYPBaseLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPBaseLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYPBaseLib_Tests/Pods-LYPBaseLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E458BC94B7B461B361E11670 /* LYPBaseLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LYPBaseLib.podspec; path = ../LYPBaseLib.podspec; sourceTree = "<group>"; };
+		E458BC94B7B461B361E11670 /* LYPBaseLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYPBaseLib.podspec; path = ../LYPBaseLib.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				B037C2E739239E2081F8538D /* Pods_LYPBaseLib_Example.framework in Frameworks */,
+				6A7469B91D8000C9C5C5D14D /* libPods-LYPBaseLib_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +90,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				203E141693F26FFAF9D2F207 /* Pods_LYPBaseLib_Tests.framework in Frameworks */,
+				85093D8F97C6A34C08D4B251 /* libPods-LYPBaseLib_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +111,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				925444E220161730009859A9 /* LYPBaseLib */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LYPBaseLib */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -134,8 +137,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				5D1AEDD547D97C8490285713 /* Pods_LYPBaseLib_Example.framework */,
-				18CD834F19A21F6E4297C9F8 /* Pods_LYPBaseLib_Tests.framework */,
+				486D15272528A85B5DAC49FB /* libPods-LYPBaseLib_Example.a */,
+				5CB15C83DD6EE5258B398D29 /* libPods-LYPBaseLib_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -196,6 +199,32 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		925444E220161730009859A9 /* LYPBaseLib */ = {
+			isa = PBXGroup;
+			children = (
+				925444E320161730009859A9 /* Classes */,
+				925444E620161730009859A9 /* Assets */,
+			);
+			name = LYPBaseLib;
+			path = ../LYPBaseLib;
+			sourceTree = "<group>";
+		};
+		925444E320161730009859A9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				925444E420161730009859A9 /* .gitkeep */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		925444E620161730009859A9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				925444E720161730009859A9 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -250,6 +279,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "251180323@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 865L62UDE9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +556,8 @@
 			baseConfigurationReference = 8FCE507D20F542765CB1B362 /* Pods-LYPBaseLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 865L62UDE9;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LYPBaseLib/LYPBaseLib-Prefix.pch";
 				INFOPLIST_FILE = "LYPBaseLib/LYPBaseLib-Info.plist";
@@ -539,6 +573,8 @@
 			baseConfigurationReference = 267248CC067E9386613170B9 /* Pods-LYPBaseLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 865L62UDE9;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LYPBaseLib/LYPBaseLib-Prefix.pch";
 				INFOPLIST_FILE = "LYPBaseLib/LYPBaseLib-Info.plist";
