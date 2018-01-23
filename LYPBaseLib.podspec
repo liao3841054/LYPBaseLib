@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LYPBaseLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LYPBaseLib.'
+  s.summary          = '简单的基础组件库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+快速开发项目的基础组件库（导航，BaseController，常见的布局）
                        DESC
 
   s.homepage         = 'https://github.com/251180323@qq.com/LYPBaseLib'
@@ -32,11 +32,18 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LYPBaseLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'LYPBaseLib' => ['LYPBaseLib/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'LYPBaseLib' => ['LYPBaseLib/Assets/*.png']
+  }
+  
+  s.public_header_files = 'LYPBaseLib/Classes/**/*.h'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency  'Reachability'
+  s.dependency  'MBProgressHUD'
+  s.dependency  'FDFullscreenPopGesture'
+  s.dependency  'IQKeyboardManager'
+  s.dependency  'YYCategories'
+  s.dependency  'MJRefresh'
 end

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#include <UINavigationController+FDFullscreenPopGesture.h>
+#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
 
 @interface LMJNavigationController : UINavigationController
 

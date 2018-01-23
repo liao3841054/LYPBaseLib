@@ -7,7 +7,7 @@
 //
 
 #import "LMJTextViewController.h"
-#import <Reachability.h>
+#import <Reachability/Reachability.h>
 #import "LYPBaseConst.h"
 
 @class LMJRequestBaseViewController;

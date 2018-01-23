@@ -79,7 +79,6 @@
 		51F82DCE19775A42BC1057C1DBE26814 /* LMJElementsFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4792CBA01E148D86BEE2F72E04777 /* LMJElementsFlowLayout.m */; };
 		536F7D0550F5FD9F5869CEC995CFEE9B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9889F7158683C0978B343A30D11F4226 /* MBProgressHUD.m */; };
 		53E16175D3F285FCD0AA297379790B78 /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 515E30D0CF8EF4E4F0E539F5700C587A /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		551BAF3445BD186D5F5AF7B8975D309B /* BTLibHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E3BD205AFE68D34B66AC3B0793986936 /* BTLibHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5561442985C8F31D0A1B38089D8A4016 /* NSObject+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D3B737420A2FA88BF13D4D38FB9B3B /* NSObject+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55899A67437E0AFF49C7F1E6D7AC2166 /* MBProgressHUD+LMJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 48EC21E97DF59875B1D93A00FEF79DC6 /* MBProgressHUD+LMJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58E97D84654251C62CC23157B42F8161 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C91E8948555C0CEC3AFF67B9932D472 /* CoreGraphics.framework */; };
@@ -334,13 +333,13 @@
 		23DA14AF75377C8DB5C7D0F8870355BF /* UIFont+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+YYAdd.h"; path = "YYCategories/UIKit/UIFont+YYAdd.h"; sourceTree = "<group>"; };
 		2570447DDF15834A7A4A9FC9EBF75966 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
 		2684D17857AF2CE8E547F59A6021FE5F /* NSDictionary+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YYAdd.m"; path = "YYCategories/Foundation/NSDictionary+YYAdd.m"; sourceTree = "<group>"; };
-		2A3EE81A39191F517E58516813FF414F /* libYYCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYCategories.a; path = libYYCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3EE81A39191F517E58516813FF414F /* libYYCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYYCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACDDD8385B1E807A7F47E85CC04D50E /* UIImage+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YYAdd.h"; path = "YYCategories/UIKit/UIImage+YYAdd.h"; sourceTree = "<group>"; };
 		2AE89532543D16FB096BCD3A1476E725 /* LMJTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LMJTableViewController.m; sourceTree = "<group>"; };
 		2B26D700FA7EC46998AEA937D9DCD150 /* LMJHorizontalFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LMJHorizontalFlowLayout.h; sourceTree = "<group>"; };
 		2B6AEFCF092F6E279C739C7F981E9D86 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
 		2CCE9CE356ECD52D21D9A227063FE4E0 /* NSKeyedUnarchiver+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSKeyedUnarchiver+YYAdd.m"; path = "YYCategories/Foundation/NSKeyedUnarchiver+YYAdd.m"; sourceTree = "<group>"; };
-		2D89497CE3A87BC6A00F8B8864E007E0 /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIQKeyboardManager.a; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D89497CE3A87BC6A00F8B8864E007E0 /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8E91AB4476B7E06F439AA27B7FAE6F /* FDFullscreenPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.xcconfig; sourceTree = "<group>"; };
 		2FB4792CBA01E148D86BEE2F72E04777 /* LMJElementsFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LMJElementsFlowLayout.m; sourceTree = "<group>"; };
 		30DDFBF95F4C75F7295E03C67767100F /* LMJNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LMJNavigationBar.m; sourceTree = "<group>"; };
@@ -361,7 +360,7 @@
 		3DC1917A506572E251B05626955D67F2 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
 		3F0521FD4EEAADD476A5BE571F256C1F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		40B37B5957E15C3B6BB18F8BE4E9E46D /* LMJTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LMJTextViewController.m; sourceTree = "<group>"; };
-		40C1F499F06E4BC02F791C0C69AC493C /* libPods-LYPBaseLib_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LYPBaseLib_Tests.a"; path = "libPods-LYPBaseLib_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C1F499F06E4BC02F791C0C69AC493C /* libPods-LYPBaseLib_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYPBaseLib_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		415520CDE2604ADA4ED9F345B95D5B1C /* UITableView+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+YYAdd.h"; path = "YYCategories/UIKit/UITableView+YYAdd.h"; sourceTree = "<group>"; };
 		4170F660B3AB6BCF721B6D833209F1E1 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
 		43B7C379C715799E117C5D63487D378B /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
@@ -370,7 +369,7 @@
 		47FBDF8BA36BBF51BE53450CC5400954 /* LMJWordItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LMJWordItem.h; sourceTree = "<group>"; };
 		48EC21E97DF59875B1D93A00FEF79DC6 /* MBProgressHUD+LMJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LMJ.h"; sourceTree = "<group>"; };
 		497CA52B6C02F00D44AD27ED09F38AA8 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
-		4AD4E1FB581A58C5B3930938412374B9 /* libLYPBaseLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLYPBaseLib.a; path = libLYPBaseLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD4E1FB581A58C5B3930938412374B9 /* libLYPBaseLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLYPBaseLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C2D6BE986CF34680E2C4DC3D190D82A /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
 		4C6029505E7A087BECE44C23A6692E19 /* UIDevice+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+YYAdd.h"; path = "YYCategories/UIKit/UIDevice+YYAdd.h"; sourceTree = "<group>"; };
 		4CFC96C49338AFE0DE020F5E909C5B46 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
@@ -402,7 +401,7 @@
 		670CC63E471940214E36A6B725B4040C /* LMJWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LMJWebViewController.h; sourceTree = "<group>"; };
 		67818A43FC178E23CA7FE29F8A29D3CB /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
 		67C5F69E37895E78E2EE5BFBA3B78133 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
-		67CCACB4263533B6EC2771730B69EF8C /* libFDFullscreenPopGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFDFullscreenPopGesture.a; path = libFDFullscreenPopGesture.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		67CCACB4263533B6EC2771730B69EF8C /* libFDFullscreenPopGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFDFullscreenPopGesture.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		685D9899A385C3CF47B17F3FD816B23C /* LMJRefreshTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LMJRefreshTableViewController.m; sourceTree = "<group>"; };
 		6A6A70244A90966738B1054FCDA1FAB6 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
 		6C5AC2030CBA931120D80679586C5976 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
@@ -416,7 +415,7 @@
 		708C4163A7CD0618AA593AAD9561A82F /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
 		7102092CF5591117CB5730D7FC3730D4 /* LMJNavUIBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LMJNavUIBaseViewController.h; sourceTree = "<group>"; };
 		7122D914CAC10927E2BD0CA5269FD8DD /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
-		719C098FDD185C333D1B2D41565799FF /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		719C098FDD185C333D1B2D41565799FF /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		71FD0D933C48CE9A0EA36DB212A95835 /* LMJRequestBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LMJRequestBaseViewController.h; sourceTree = "<group>"; };
 		726E5EF73257231B12925BA524DDCF62 /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
 		7412632EBD4A378D532E174848D205C9 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
@@ -435,7 +434,7 @@
 		7BB260C07313B15F77779AFB0B00B872 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
 		7C37A6B202CB5C996F29F54A993B0760 /* Pods-LYPBaseLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYPBaseLib_Example-resources.sh"; sourceTree = "<group>"; };
 		7CD4F5E9374DC06A237DCB8D78749A69 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
-		7EA01F830DAF2A2DC8E40A7FD5F3FD22 /* libPods-LYPBaseLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LYPBaseLib_Example.a"; path = "libPods-LYPBaseLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA01F830DAF2A2DC8E40A7FD5F3FD22 /* libPods-LYPBaseLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYPBaseLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8E06D9137C888813A411A5FB90DCAB /* Pods-LYPBaseLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYPBaseLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		80703094B33294DD59225FD2508C719D /* NSObject+YYAddForKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYAddForKVO.m"; path = "YYCategories/Foundation/NSObject+YYAddForKVO.m"; sourceTree = "<group>"; };
 		83BD0466BBB9DFBD3B8115C1CFFF48C9 /* LYPBaseLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYPBaseLib-dummy.m"; sourceTree = "<group>"; };
@@ -450,7 +449,7 @@
 		8D301AFAE42B8AEA3A09A90232177B7C /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
 		8E7F7454724FD1B5C159B49C770D384A /* UIView+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YYAdd.h"; path = "YYCategories/UIKit/UIView+YYAdd.h"; sourceTree = "<group>"; };
 		93293AC194AA475ECEF4100D75080217 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95CF3ED5FFFB30C61EA18405E2D2C967 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
 		961818DBB647D1269E8A123416354BFF /* LMJNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LMJNavigationController.m; sourceTree = "<group>"; };
 		97CBF29E5A0AA9742E44D9BB3DC2D7FE /* NSObject+YYAddForARC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYAddForARC.h"; path = "YYCategories/Foundation/NSObject+YYAddForARC.h"; sourceTree = "<group>"; };
@@ -497,10 +496,10 @@
 		C53D66C3A6E6062EA7892F321B1D437F /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
 		C5F6AEE5B89B08BF0A43897BE894C25F /* NSObject+YYAddForARC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYAddForARC.m"; path = "YYCategories/Foundation/NSObject+YYAddForARC.m"; sourceTree = "<group>"; };
 		C61FE37448ECF26B33D4E876055402AE /* LMJNormalRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LMJNormalRefreshHeader.h; sourceTree = "<group>"; };
-		C90DBACE2216709E7C7E00EE518782CB /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libReachability.a; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90DBACE2216709E7C7E00EE518782CB /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94C0FB4A506845D1ABF1CD5977422B3 /* Pods-LYPBaseLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYPBaseLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CB5A9C27A46856A9757CB28F54D308B1 /* UITextView+WZB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+WZB.h"; sourceTree = "<group>"; };
-		CB75BF866D7E677BAFFE7F75A26B1404 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJRefresh.a; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB75BF866D7E677BAFFE7F75A26B1404 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA19E51AE837E9C2D98C41A4BDA50E9 /* LMJNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LMJNavigationController.h; sourceTree = "<group>"; };
 		D08E398E570F8259D58E70EE233029EE /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		D1D2B8121EF09D3BE4C43E8628E88DA2 /* UIViewController+DDPopUpViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DDPopUpViewController.h"; sourceTree = "<group>"; };
@@ -518,7 +517,6 @@
 		DFB22675D4B460D4262B81D292A1898A /* UIScreen+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+YYAdd.m"; path = "YYCategories/UIKit/UIScreen+YYAdd.m"; sourceTree = "<group>"; };
 		E17C2553BA124453D603C75AF80A88FB /* NSBundle+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+YYAdd.m"; path = "YYCategories/Foundation/NSBundle+YYAdd.m"; sourceTree = "<group>"; };
 		E1BAB8793BAED2773675B85C5CDD5FCB /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+YYAdd.m"; path = "YYCategories/UIKit/UIDevice+YYAdd.m"; sourceTree = "<group>"; };
-		E3BD205AFE68D34B66AC3B0793986936 /* BTLibHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTLibHeader.h; sourceTree = "<group>"; };
 		E5660CBE8B3C5219A1E0CA6E21182175 /* LMJStaticTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LMJStaticTableViewController.h; sourceTree = "<group>"; };
 		E574334716DA37FCF43BA52D26C3BFC8 /* UIView+LMJNjHuFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LMJNjHuFrame.m"; sourceTree = "<group>"; };
 		E620045F7C46944F96902F9DD527561B /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
@@ -661,7 +659,6 @@
 				0CD2F5388A03236877CB94F872064128 /* LMJVerticalFlowLayout.h */,
 				6FFE8006EF5E249D4E0A31604C75450E /* LMJVerticalFlowLayout.m */,
 			);
-			name = BaseView;
 			path = BaseView;
 			sourceTree = "<group>";
 		};
@@ -696,7 +693,6 @@
 				F51FA63AFFF2D8A5CCC57A1D885157AE /* UINavigationController+FDFullscreenPopGesture.m */,
 				633BFD634DA7001E523DC2913F92895A /* Support Files */,
 			);
-			name = FDFullscreenPopGesture;
 			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
@@ -705,7 +701,6 @@
 			children = (
 				2E2EF6C0E1BD7CD508600E81D68D5A5E /* Classes */,
 			);
-			name = LYPBaseLib;
 			path = LYPBaseLib;
 			sourceTree = "<group>";
 		};
@@ -746,20 +741,17 @@
 				670CC63E471940214E36A6B725B4040C /* LMJWebViewController.h */,
 				1F01B14936B0BF8B6C2F15A5B79548CA /* LMJWebViewController.m */,
 			);
-			name = BaseControllers;
 			path = BaseControllers;
 			sourceTree = "<group>";
 		};
 		2E2EF6C0E1BD7CD508600E81D68D5A5E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E3BD205AFE68D34B66AC3B0793986936 /* BTLibHeader.h */,
 				195E328FD250CDBC925545C07FEF35D0 /* LYPBaseConst.h */,
 				3414C75B740DEE6A6B76B2F578531EA5 /* LYPBaseConst.m */,
 				42053B92CBCA9CF9D0124D74089D4CC1 /* Category */,
 				5A56E582CD5A060A36138DFD2FCB02DA /* LMJBase */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -799,7 +791,6 @@
 				AA1EFBCC2B464F4DD483AC6E7F0F5A96 /* Resources */,
 				629019B9005381BAB424027FA627B983 /* Support Files */,
 			);
-			name = IQKeyboardManager;
 			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
@@ -842,7 +833,6 @@
 				D1D2B8121EF09D3BE4C43E8628E88DA2 /* UIViewController+DDPopUpViewController.h */,
 				05794BCF234FE989E5962ED19DA1BC67 /* UIViewController+DDPopUpViewController.m */,
 			);
-			name = Category;
 			path = Category;
 			sourceTree = "<group>";
 		};
@@ -868,7 +858,6 @@
 				D26E9F37D5DD03A371A789019224C6D3 /* BaseModels */,
 				051059C9E8EB305705E64E51EA84427E /* BaseView */,
 			);
-			name = LMJBase;
 			path = LMJBase;
 			sourceTree = "<group>";
 		};
@@ -950,7 +939,6 @@
 				9889F7158683C0978B343A30D11F4226 /* MBProgressHUD.m */,
 				A318214B1113F31DFA185CDA647E2958 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -1044,7 +1032,6 @@
 				41090D71EE1744D426FAC4591875D6DE /* Resources */,
 				7F5D9BD8D1E7ABBBA70B9D8BBCBC8925 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -1074,7 +1061,6 @@
 				EF3EBAFC5973BD715DCA9A64BBE17407 /* Reachability.m */,
 				AE4980AFB968D92E69DE8061F8A263AE /* Support Files */,
 			);
-			name = Reachability;
 			path = Reachability;
 			sourceTree = "<group>";
 		};
@@ -1142,7 +1128,6 @@
 				0E153CE29224F258988A5660483F1FA1 /* no-arc */,
 				2187580581A58B4D07E6ECC324953BDB /* Support Files */,
 			);
-			name = YYCategories;
 			path = YYCategories;
 			sourceTree = "<group>";
 		};
@@ -1173,7 +1158,6 @@
 				47FBDF8BA36BBF51BE53450CC5400954 /* LMJWordItem.h */,
 				5FA50116DB2E631E00DD63D15CBA2436 /* LMJWordItem.m */,
 			);
-			name = BaseModels;
 			path = BaseModels;
 			sourceTree = "<group>";
 		};
@@ -1223,7 +1207,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				551BAF3445BD186D5F5AF7B8975D309B /* BTLibHeader.h in Headers */,
 				EB54302B2579664F1CB90CE0411CF5CC /* LMJAutoRefreshFooter.h in Headers */,
 				CC3B2073D06C5276B57B2E2EF57D9F7B /* LMJBaseViewController.h in Headers */,
 				91644FDAB50059D954BA0838CC7714ED /* LMJCollectionViewController.h in Headers */,
