@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 快速开发项目的基础组件库（导航，BaseController，常见的布局）
                        DESC
 
-  s.homepage         = 'https://github.com/251180323@qq.com/LYPBaseLib'
+  s.homepage         = 'https://github.com/liao3841054/LYPBaseLib.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '251180323@qq.com' => '251180323@qq.com' }
-  s.source           = { :git => 'https://github.com/251180323@qq.com/LYPBaseLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liao3841054/LYPBaseLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'LYPBaseLib' => ['LYPBaseLib/Assets/*.png']
   }
-  
+
   s.public_header_files = 'LYPBaseLib/Classes/**/*.h'
 
   # s.frameworks = 'UIKit', 'MapKit'
@@ -46,4 +46,7 @@ Pod::Spec.new do |s|
   s.dependency  'IQKeyboardManager'
   s.dependency  'YYCategories'
   s.dependency  'MJRefresh'
+
+  s.requires_arc = true
+
 end
