@@ -1,8 +1,28 @@
 #use_frameworks!
 
 target 'LYPBaseLib_Example' do
+    
+  ######### 基础依赖库  start ########
+  
   pod 'LYPBaseLib', :path => '../'
   pod 'MBProgressHUD'
+  pod 'FDFullscreenPopGesture'
+  # 下拉刷新
+  pod 'MJRefresh'
+  # 网络监控
+  pod 'Reachability'
+  # 键盘管理
+  pod 'IQKeyboardManager'
+  
+  # YYKit
+  #pod 'YYKit'
+#  pod 'YYImage'
+#  pod 'YYText'
+#  pod 'YYAsyncLayer'
+  pod 'YYCategories'
+  
+  ######### 基础依赖库 end ########
+
   
   target 'LYPBaseLib_Tests' do
     inherit! :search_paths

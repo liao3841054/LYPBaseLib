@@ -1,0 +1,1 @@
+../../../../../LYPBaseLib/Classes/LMJBase/BaseModels/LMJWordItem.h
